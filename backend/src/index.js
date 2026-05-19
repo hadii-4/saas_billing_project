@@ -35,3 +35,6 @@ AppDataSource.initialize()
         });
     })
     .catch((error) => console.log("Database connection error: ", error));
+
+
+    module.exports = app;
