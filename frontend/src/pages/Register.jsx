@@ -12,7 +12,7 @@ const Register = () => {
         e.preventDefault();
         try {
             // Role ko hardcode 'Account Owner' bhej rahe hain
-            await API.post('/users/register', { 
+            await API.post('/register', { 
                 fullName, 
                 email, 
                 password, 

@@ -22,8 +22,8 @@
 import axios from 'axios';
 
 const API = axios.create({
-    // Ab localhost ke bajaye live Vercel URL base URL ban gaya hai
-    baseURL: 'https://saas-billing-project-pj8p.vercel.app/api',
+    // Humne baseURL mein '/api/users' kar diya taakay tumhara frontend ka purana path match ho jaye
+    baseURL: 'https://saas-billing-project-pj8p.vercel.app/api/users',
 });
 
 // Interceptor yahan ayega
